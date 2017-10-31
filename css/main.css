@@ -1,3 +1,94 @@
 /*
  * Estilos de tu proyecto
  */
+  /*setear*/
+  body{
+    outline: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+/*encabezado*/
+#contenedor {
+    font-weight: 700;
+    height:100px ;
+    font-family: 'Monsetrrat';
+    background-color:rgb(125, 9, 179);
+    width: 100%;
+    position: fixed;
+    z-index:1000;
+ }
+ .content {
+     outline: 2px solid black;
+ } 
+ .title {
+     outline: 2px solid blue;
+     display: inline-block;
+     position: relative;
+     left: 80px;
+     top: 20px;
+ }
+.title img {
+    outline: 2px solid black;
+    width: 100px;
+    height: 70px;
+ 
+}
+
+
+/*menu de navegacion*/
+
+nav {
+    display: inline-block;
+    outline: 2px solid red;
+    left: 800px;
+    height: 30px;
+     
+}
+nav .menu {
+    position: relative;
+    outline: 2px solid green;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    left: 700px;
+   
+   }
+
+nav .menu li {
+    outline: 2px solid black;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 0;
+}
+
+nav .menu li a {   
+    outline: blue;
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+ }
+ .cuerpo-uno img {
+     width: 100%;
+     
+
+ }
+.conte-uno {
+    outline: 2px solid green;
+    width: 20%;
+    float: left;
+    position: relative;
+    bottom: 400px;
+}
+.info {
+    outline: 2px solid red;
+    display:inline-block;
+    width: 100%;
+}
+.form {
+    position: relative;
+    left: 100px;
+}
